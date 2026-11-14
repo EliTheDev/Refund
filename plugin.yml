@@ -1,0 +1,19 @@
+name: Refund
+main: refund\Main
+version: 1.1.0
+author: Eli
+api: 5.0.0
+
+commands:
+  refund:
+    description: "View and manage refund history for a player"
+    permission: refund.command
+  refunds:
+    description: "Open refund history or inspect and prune completed old refunds"
+    permission: refunds.command
+
+permissions:
+  refund.command:
+    default: op
+  refunds.command:
+    default: op
